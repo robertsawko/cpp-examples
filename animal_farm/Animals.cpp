@@ -5,9 +5,9 @@ void Animal::sound() { std::cout << "Generic animal sound\n"; }
 
 void Dog::sound() { std::cout << "Woof!\n"; }
 
-void Bird::sound() { std::cout << "Tweet, tweet!\n"; }
+void Pig::sound() { std::cout << "Oink, oink!\n"; }
 
 // Destructors
 Animal::~Animal() { std::cout << "Animal goes.\n"; }
-Bird::~Bird() { std::cout << "Bird goes.\n"; }
+Pig::~Pig() { std::cout << "Pig goes.\n"; }
 Dog::~Dog() { std::cout << "Dog goes.\n"; }

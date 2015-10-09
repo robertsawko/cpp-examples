@@ -4,10 +4,10 @@ class Animal {
   virtual ~Animal();
 };
 
-class Bird : public Animal{
+class Pig : public Animal{
  public:
   void sound();
-  virtual ~Bird(); 
+  virtual ~Pig(); 
 };
 
 class Dog : public Animal{
